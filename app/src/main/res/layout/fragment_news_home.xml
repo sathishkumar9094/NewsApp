@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NewsHomeFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRvNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="@dimen/margin_5"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/news_rv_item" />
+
+    <ProgressBar
+        android:id="@+id/loadingPB"
+        android:layout_width="@dimen/margin_15"
+        android:layout_height="@dimen/margin_15" />
+
+</RelativeLayout>

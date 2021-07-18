@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TypeCategoryFragment"
+    android:orientation="horizontal">
+
+    <ProgressBar
+        android:id="@+id/loadingPB"
+        android:layout_width="@dimen/margin_15"
+        android:layout_height="@dimen/margin_15"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/idRvcategories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/categories_rv_item"
+        />
+
+
+
+</LinearLayout>

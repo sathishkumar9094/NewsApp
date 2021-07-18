@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/layout_margin_4"
+    app:cardCornerRadius="@dimen/layout_margin_8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margin_5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_10">
+
+        <ImageView
+            android:id="@+id/idIvCategory"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="3dp"
+            android:padding="@dimen/margin_5"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="@dimen/margin_5"
+            android:text="Categories"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/idIvCategory"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:scaleType="centerCrop"-->
+    <!--            android:src="@color/yellow"-->
+
+    <!--            />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/textViewCategory"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_centerInParent="true"-->
+    <!--            android:text="Category"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textColor="@color/white2"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:padding="3dp"/>-->
+
+
+    <!--    </RelativeLayout>-->
+
+
+</androidx.cardview.widget.CardView>

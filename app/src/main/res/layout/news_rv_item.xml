@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/grey"
+    android:layout_marginTop="@dimen/margin_10"
+    android:layout_marginBottom="@dimen/margin_10"
+    android:layout_marginLeft="@dimen/margin_5"
+    android:layout_marginRight="@dimen/margin_5">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/idIvnews"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/idTvnews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idIvnews"
+            android:layout_margin="3dp"
+            android:maxLines="2"
+            android:padding="3dp"
+            android:text="News Heading"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/sp18"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subTitleTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idTvnews"
+            android:layout_margin="3dp"
+            android:maxLines="3"
+            android:padding="3dp"
+            android:text="Sub Heading"
+            android:textColor="@color/white_2" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
